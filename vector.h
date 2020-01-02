@@ -8,6 +8,7 @@ class Vector
 {
 			int 	*data;
 			int 	dimensions;
+	
 	public :
 			int input();
 			int display();
