@@ -6,10 +6,9 @@
 using namespace std;
 class Matrix
 {
-	public :
-		
 		int 	**data;
 		int 	r,c;
+	public :
 		int 	input();
 		int 	display();
 		Matrix 	add(Matrix b);
