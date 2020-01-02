@@ -6,9 +6,9 @@
 using namespace std;
 class Vector
 {
-	public :
 			int 	*data;
 			int 	dimensions;
+	public :
 			int input();
 			int display();
 			Vector add(Vector b);
