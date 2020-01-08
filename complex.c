@@ -6,6 +6,7 @@ Complex :: Complex()
 	if(imaginary>=0)sg='+';
 	else sg='-';
 }
+
 Complex :: Complex(int r,int i)
 {
 	real = r;
