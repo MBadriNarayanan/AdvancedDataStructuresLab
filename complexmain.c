@@ -49,7 +49,7 @@ int main()
 					case 4 :
 					{
 						Complex b,c;
-						cout<<"\n\n Vector Dot Product \n\n";
+						cout<<"\n\n Multiplication \n\n";
 						a.input();
 						a.display();
 						b.input();
