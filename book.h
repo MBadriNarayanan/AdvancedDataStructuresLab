@@ -22,7 +22,7 @@ class Book
 			int 	input();
 			int 	display();
 			int 	sort();
-			int		insert();
+			int	insert();
 			int 	delete1();
 			int 	singleinput();
 			int 	search(int bookno1);
