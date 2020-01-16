@@ -25,36 +25,29 @@ int main()
 							}
 					case 2 :
 							{
-								//Book p;
+								
 								cout<<"\n\n Sort \n\n";
 								a.input();
 								a.display();
-								//p=a.sort();
-								//p.display();
 								a.sort();
 								a.display();
 								break;
 							}
 					case 3 :
 							{
-								//Book p;
+								
 								cout<<"\n\n Insert \n\n";
 								a.input();
 								a.display();
-								//p=a.insert();
-								//p.display();
 								a.insert();
 								a.display();
 								break;
 							}
 					case 4 :
 							{
-								//Book p;
 								cout<<"\n\n Delete \n\n";
 								a.input();
 								a.display();
-								//p=a.delete1();
-								//p.display();
 								a.delete1();
 								a.display();
 								break;
