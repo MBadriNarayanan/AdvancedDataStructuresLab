@@ -82,11 +82,6 @@ Library :: Library(int n)
 		strcpy(data[i].publisher,"\0");
 	}
 }
-/*Library :: ~Library()
-{
-        delete[] data;
-        cout<<"\n\n DeAllocated Memory \n\n";
-}*/             
 int Library::sort()
 {
 	int 	n,i,j;
