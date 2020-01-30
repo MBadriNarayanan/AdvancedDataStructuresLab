@@ -36,7 +36,6 @@ class Library
 			int 	delete1();
 			int 	search(int bookno1);
 			Library();
-			Library(int n);
-			//~Library();
+			Library(int n); 
 };
 #endif
