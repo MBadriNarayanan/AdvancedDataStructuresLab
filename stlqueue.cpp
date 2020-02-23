@@ -13,7 +13,7 @@ ostream& operator <<(ostream& out,BookDetails a)
 		out<<a.publishernumber<<endl;
 		cout<<" Price : ";
 		out<<a.price;
-        cout<<endl<<endl;
+        	cout<<endl<<endl;
 		return out;
 }
 istream& operator >>(istream& in,BookDetails& a)
