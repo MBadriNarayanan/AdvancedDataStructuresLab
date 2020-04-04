@@ -3,7 +3,7 @@
 int main()
 {
 		cout<<"\n\n\n BinarySearchTree \n\n\n";
-	int choice;
+	int     choice;
 		cout<<" 1. Integer BST \n";
 		cout<<" 2. Character BST \n";
 		cout<<" 3. Float BST \n";
