@@ -92,7 +92,7 @@ class RBT
     void preorder(Node<T> *t)
     {
         if(t == NULL)return;
-        cout<<t->data<<"-"<<(t->col ? "BLACK":"RED")<<endl;
+        cout<<" "<<t->data<<"-"<<(t->col ? "BLACK":"RED")<<endl;
         preorder(t->left);
         preorder(t->right);
     }
@@ -100,7 +100,7 @@ class RBT
     {
         if(t == NULL)return;
         inorder(t->left);
-        cout<<t->data<<"-"<<(t->col ? "BLACK":"RED")<<endl;
+        cout<<" "<<t->data<<"-"<<(t->col ? "BLACK":"RED")<<endl;
         inorder(t->right);
     }
     void postorder(Node<T> *t)
@@ -108,7 +108,7 @@ class RBT
         if(t == NULL)return ;
         postorder(t->left);
         postorder(t->right);
-        cout<<t->data<<"-"<<(t->col ? "BLACK":"RED")<<endl;
+        cout<<" "<<t->data<<"-"<<(t->col ? "BLACK":"RED")<<endl;
     }
     bool isLeaf(Node<T> *t)
     {
