@@ -1,8 +1,3 @@
-/*
-Includes
-1. Prim - graph must be undirected //any vertex can be starting vertex
-2. Kruskal - graph must be undirected //needs Disjoint set and priority queue
-*/
 #ifndef primandkruskal_h
 #define primandkruskal_h
 
