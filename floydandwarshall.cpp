@@ -3,7 +3,7 @@
 int main()
 {
 	
-	cout<<"\n\n Floyd And Warshall ALgorithm \n\n";
+	cout<<"\n\n Floyd And Warshall Algorithm \n\n";
 
 	cout<<" Floyd \n\n";
 
