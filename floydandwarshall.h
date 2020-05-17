@@ -76,7 +76,7 @@ class Graph
             }
         }
 
-        cout<<"\n\n Transitive CLosure \n\n";
+        cout<<"\n\n Transitive Closure \n\n";
         for(i = 0; i < n; i++)
         {
             for(j = 0; j < n; j++)
