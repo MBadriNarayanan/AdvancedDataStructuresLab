@@ -33,5 +33,6 @@ class BST
     Node<T>* insert(T x);
     void display();
     Node<T>* deleteNode(T data);
+    Node<T>* getRoot();
 };
 #endif
