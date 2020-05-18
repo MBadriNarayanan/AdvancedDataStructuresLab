@@ -7,7 +7,7 @@ int main()
 	int data;
 	int choice;
 	RBT<int> b;
-	cout<<"\n\n Creating The Red Tree \n\n";
+	cout<<"\n\n Creating The Red Black Tree \n\n";
 	do
 	{
 		cout<<" Enter Data To Be Inserted : ";
