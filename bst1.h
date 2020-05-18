@@ -133,3 +133,9 @@ Node<T>* BST<T> :: deleteNode(T data)
 {
     return deleteNode(root, data);
 }
+
+template<class T>
+Node<T>* BST<T> :: getRoot()
+{
+    return root;
+}
