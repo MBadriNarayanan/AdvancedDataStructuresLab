@@ -249,29 +249,6 @@ class RBT
         t = resolve(t);
         return t;    
     }
-    Node<T> *remove(Node<T> *t, T x)
-    {
-        Node<T> *temp;
-
-        if(t == NULL)return NULL;
-        else if(x > t->data)t->right = remove(t->right, x);
-        else if(x < t->data)t->left = remove(t->left, x);
-        else if(t->left && t->right)
-        {
-            temp = maximum(t->left);
-            t->data = temp->data;
-            t->left = remove(temp, temp->data);
-        }
-        else
-        {
-            temp = t;
-            if(t->left == NULL)t = t->right;
-            else if(t->right == NULL)t = t->left;
-            delete temp;     
-        }
-        t = resolve(t);
-        return t;
-    }
 
     public:
     RBT()
@@ -285,12 +262,6 @@ class RBT
     Node<T>* insert(T x)
     {
         root = insert(root, x);
-        root->col = BLACK;
-        return root;
-    }
-    Node<T>* remove(T x)
-    {
-        root = remove(root, x);
         root->col = BLACK;
         return root;
     }
