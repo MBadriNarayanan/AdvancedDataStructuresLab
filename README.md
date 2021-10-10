@@ -1,4 +1,4 @@
-# AdvancedDataStructures
+# AdvancedDataStructuresLab
 
 Advanced Data Structures Lab work done during IV Semester
 
